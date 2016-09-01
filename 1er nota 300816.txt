@@ -1,0 +1,65 @@
+conexion de librerias que resuelve problemas, los framework mas grandes son 
+los java.
+
+Visual studio se clasifican en el proyecto y la solucion.
+
+.dll dynamic link library <--se compilan a las librerias
+
+.jvm en .net existe su propia maquina virtual, establece un ejecutar (.exe)
+
+IL  intermedium lenguage<-- lenguaje ensamblador que se encarga de compilar codigo
+
+.net no maneja la memoria, c# si
+
+32bits<-- 4 gb max, 
+ 
+con el proceso de paginación otorga toda la memoria a todos los programas
+
+		C# JAVAA
+stack<--
+hip<-- estan todos los objetos (instancias)
+RECOLECCION DE BASURA
+
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello world");
+            Console.ReadLine();
+            //datos primitivos
+            int integer;
+            char somechar;
+            bool someboolean;
+            long a;
+            float x;
+            double d;
+            short s;
+            s = 100;
+            s.ToString();
+            string str;//va al hip es objeto como si
+            //COLECION DE NUMEROS O LISTA
+            //< > genericos cualquier tipo
+            //Linq que son conexiones
+            //metodos de extension
+            foreach (var n in nums)
+            {   
+
+            }
+            List<int> numeros = new List<int>();
+            numeros.Add(1);
+            numeros.Add(2);
+            int[] nums = new int[4];
+        }
+    }
+}
+

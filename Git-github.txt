@@ -1,0 +1,22 @@
+GIT Es un sistema de versiones distribuido
+
+Mi maquina siempre se comportará con un host central 
+
+Git es la tecnología.
+ Github es el repositorio remoto (hosting de repositorio Git)
+
+
+--------Git areas Internas
+
+Compuesto de Git 
+
+Forma LOCAL y repositorios REMOTOS
+
+dentro de LOCAL estan 
+El STASH sirve para guardar información especial dentro de los repositorios.
+	*  el workspace
+	*  El index (aqui es cuando pasan con el comando add)
+	* Despues de eso para que quede guardado en mi repositorio
+		Local necesito el comando <commit> 
+
+	Ya que los tengo de manera local puedo mandarlos a los repositorios remotos.
